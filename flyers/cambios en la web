@@ -1,0 +1,12 @@
+crear una historia de usuario donde se reflejen los siguientes cambios para la web de flyers llamada Rediseño de web reservations para favoritos
+
+se definió hasta ahora es, en el detalla de hotel, actividad, transfer y lounges se debe mostrar primero el tab de descripction
+
+y abajo de las imágenes el formulario para poder cambiar los parámetros de búsqueda
+en el caso de actividades y transfer el fron y to
+en el caso de hoteles el checkin, checkout y la ocupación
+y en lounges el date
+y al hacer search, mostrar el tab availability con la disponibilidad
+
+desplegar lo que estan desarrollando
+y luego crear una nueva rama

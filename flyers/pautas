@@ -1,0 +1,8 @@
+las tareas se cierran en redmine cuando se hace el despliegue (deploy) y el porcentaje de avance sea de 100%
+
+los hotfix son los errores (bugs) asociadas a una tarea en producción.
+
+las tareas cerradas por completo están en producción, por lo que se debe actualizar en RedMine.
+
+cualquier cambio solicitada debe quedar registrado y documentado en RedMine
+

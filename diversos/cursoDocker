@@ -1,0 +1,30 @@
+curso docker
+
+para instalar docker vamos a la pagina get.docker.com
+y copiamos en comando curl
+
+para conocer docker usamos los comandos
+docker info
+docker version
+
+para conocer el estado del contenedor
+sudo systemctl status docker
+
+para arrancar el contenedor
+sudo systemctl start docker
+
+para conocer la imagen instalada
+docker images
+
+para buscar las imagenes usamos el comando
+docker search xxx 
+
+para descargar imagenes usamos el comando
+docker pull ubuntu
+
+para crear un contenedor usamos el comando
+docker run xxx
+
+para conocer los contenedores creados usamos el comando
+docke ps -a
+

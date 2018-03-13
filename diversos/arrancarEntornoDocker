@@ -1,0 +1,44 @@
+Para iniciar el entorno 
+docker-compose start
+
+Para parar los servicios de MySQL y Apache
+sudo service mysql stop && sudo service apache2 stop
+
+Para iniciar el entorno 
+docker-compose start
+
+Para ejecutar el entorno web
+docker-compose exec web bash
+
+Para corregir el error de las migraciones
+salir del contenedor con exit o ctrl + D
+
+Luego ejecutar la BD
+docker-compose exec mariadb bash
+mysql -u root -p (123456)
+
+Para eliminar la BD
+drop database xxxx;
+
+Creamos la BD nuevamente 
+create database XXX (transportercommunity);
+
+Salimos de la BD
+ctrl + D (2)
+
+Para ejecutar el entorno web
+docker-compose exec web bash
+
+Ejecutamos la migración
+php artisan migrate
+
+Para corregor el error debemos eliminar y crear nuevamente la BD
+drop database XXX;
+create database XXX;
+
+luego ingreso MySQL 
+mysql -u root -p (123456)
+use DB xxx;
+show tables;
+
+Luego ejecuto el comando php artisan migrate (aqui vuelve a dar error).

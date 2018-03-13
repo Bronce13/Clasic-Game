@@ -1,0 +1,27 @@
+body{
+	background-color: pink;
+}
+
+button{
+	color: purple !important;
+	border-color: purple !important;
+	font-family: Arial;
+	margin-top: 20px !important;
+	width: 150px !important;
+}
+
+button:hover{
+	background: white !important; 
+	color:#f78fb3 !important;}
+
+#carouselExampleControls{
+
+width: 600px;
+height: 600px;
+
+}
+
+.awa {
+	margin-left: 100px;
+	
+}

@@ -1,0 +1,47 @@
+body{
+
+		color:purple;
+		background-color: pink;
+		margin: 5cm;
+		bottom: 3px;
+		
+	
+
+	}
+
+
+	p{
+		
+	}
+
+
+	ul{
+		border: 3px solid purple;
+	}
+
+	h1{
+		color: black;
+		margin: 3cm;
+		margin-top: 3cm
+		border:3px solid black;
+
+button{
+	margin: 10px;
+	padding:20px;
+}
+
+
+
+	button:hover {
+
+		background-color: aqua;
+		cursor: pointer;
+
+
+	}
+	.boton-rojo{
+
+		background-color: red;
+	}
+
+	
